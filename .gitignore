@@ -1,0 +1,6 @@
+crm1.csv
+__pycache__/
+.venv/
+venv/
+*.pyc
+crm1_clean.csv
