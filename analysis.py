@@ -1,8 +1,4 @@
-
 """
-analyze_crm.py
- 
-Exploratory analysis of the cleaned CRM dataset (crm1_clean.csv).
  
 Sections:
     1. Customer overview
@@ -14,8 +10,6 @@ Sections:
     7. Birth year checks
     8. Final data quality check
  
-Run it like:
-    python analyze_crm.py
 """
  
 from datetime import datetime
