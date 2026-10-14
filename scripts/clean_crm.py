@@ -1,8 +1,13 @@
 
+
+from pathlib import Path
 import pandas as pd
 
-INPUT_FILE = "crm1.csv"
-OUTPUT_FILE = "crm1_clean.csv"
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+INPUT_FILE = BASE_DIR / "data" / "raw" / "crm1.csv"
+OUTPUT_FILE = BASE_DIR / "data" / "processed" / "crm1_clean.csv"
+
 
 
 # ======================================================

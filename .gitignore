@@ -1,6 +1,14 @@
-crm1.csv
+
+# Dataset files
+*.csv
+
+# Python cache
 __pycache__/
-.venv/
+*.py[cod]
+
+# Virtual environments
 venv/
-*.pyc
-crm1_clean.csv
+.venv/
+
+# Secrets
+.env
